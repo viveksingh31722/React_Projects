@@ -1,0 +1,16 @@
+.active {
+  color: gold;
+  cursor: pointer;
+}
+
+.inactive {
+  color: lightgray;
+  cursor: pointer;
+}
+.star-rating {
+  display: flex;
+  justify-content: center;   /* Horizontal centering */
+  align-items: center;       /* Vertical centering */
+  height: 100vh;             /* Optional: full screen height */
+  gap: 10px;                 /* Optional: space between stars */
+}
