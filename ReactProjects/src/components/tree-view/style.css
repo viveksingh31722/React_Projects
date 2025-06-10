@@ -1,0 +1,23 @@
+.tree-view-container {
+  min-height: 100vh;
+  width: 350px;
+  background: rgb(0, 71, 110);
+
+  /* Added fixes below */
+  flex-direction: column;
+  overflow-y: auto;       /* Enables scrolling if contents expand */
+  max-height: 100vh;      /* Prevents content from expanding beyond screen */
+  box-sizing: border-box; /* Ensures padding doesn't add to size */
+  padding: 1rem;          /* Optional padding for inner spacing */
+}
+
+.menu-item{
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+.menu-list-container{
+  list-style: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
