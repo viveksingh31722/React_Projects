@@ -9,6 +9,9 @@ import menus from "./components/tree-view/data";
 import QRCodeGenerator from "./components/qr-code-generator";
 import LightDarkMode from "./components/light-dark-mode";
 import ScrollIndicator from "./components/scroll-indicator";
+import TabTest from "./components/custom-tabs/tab-test";
+import ModelTest from "./components/custom-modal-popup/modal-test";
+import GithubProfileFinder from "./components/github-profile-finder";
 function App() {
   return (
     <>
@@ -43,7 +46,16 @@ function App() {
       {/* <LightDarkMode/> */}
 
       {/* Scroll Indicator */}
-      <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/>
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+
+      {/* custom-tabs */}
+      {/* <TabTest /> */}
+
+      {/* show modal popup */}
+      {/* <ModelTest/> */}
+
+      {/* Github profile finder */}
+      <GithubProfileFinder/>
     </>
   );
 }

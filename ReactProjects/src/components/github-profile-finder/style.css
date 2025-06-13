@@ -1,0 +1,129 @@
+/* General resets */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+}
+
+/* Main container */
+.github-profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Search bar and button */
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.input-wrapper input {
+  padding: 12px 18px;
+  width: 260px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.input-wrapper input:focus {
+  border-color: #0077ff;
+  box-shadow: 0 0 0 3px rgba(0, 119, 255, 0.2);
+}
+
+.input-wrapper button {
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #0077ff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input-wrapper button:hover {
+  background-color: #005fcc;
+}
+
+/* User card styling */
+.user {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  text-align: center;
+}
+
+.user .avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #0077ff;
+}
+
+/* Username and date */
+.user a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0077ff;
+  text-decoration: none;
+}
+
+.user p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Stats section */
+.user > div:last-child {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.user > div:last-child > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.user > div:last-child p:first-child {
+  font-weight: 500;
+  margin: 0;
+  color: #333;
+}
+
+.user > div:last-child p:last-child {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0077ff;
+  margin: 0.25rem 0 0 0;
+}
+
+button{
+  margin-left: 0px;
+  margin-right: 2px;
+  margin-top: 12px;
+}
