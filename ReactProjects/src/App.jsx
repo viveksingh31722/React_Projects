@@ -14,6 +14,12 @@ import ModelTest from "./components/custom-modal-popup/modal-test";
 import GithubProfileFinder from "./components/github-profile-finder";
 import SearchAutoComplete from "./components/search-autocomplete-with-api";
 import TicTacToe from "./components/tic-tak-toe";
+import FeatureFlagsGlobalState from "./components/feature-flag/context";
+import FeatureFlags from "./components/feature-flag";
+import UseFetchHookTest from "./components/use-fetch/test";
+import UseOnclickOutsideTest from "./components/use-outside-click/test";
+import UseWindowResizeTest from "./components/use-window-resize/test";
+import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
 function App() {
   return (
     <>
@@ -63,7 +69,24 @@ function App() {
       {/* <SearchAutoComplete/> */}
 
       {/* Tic Tac Toe Game */}
-      <TicTacToe/>
+      {/* <TicTacToe/> */}
+
+      {/* Feature Flag Implementation */}
+      {/* <FeatureFlagsGlobalState>
+        <FeatureFlags/>
+      </FeatureFlagsGlobalState> */}
+
+      {/* useFetch - custom hook */}
+      {/* <UseFetchHookTest/> */}
+
+      {/* Use onclick outside hook test */}
+      {/* <UseOnclickOutsideTest/> */}
+
+      {/* use window resize hook */}
+      {/* <UseWindowResizeTest/> */}
+
+      {/* Scroll to top and bottom feature */}
+      <ScrollToTopAndBottom/>
     </>
   );
 }
